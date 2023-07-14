@@ -1,0 +1,33 @@
+@use '../custom' as *;
+
+.portfolio{
+    background: linear-gradient($primary,#177EDD);
+
+    .cards{
+        justify-content: space-around;
+    }
+    .x-card{
+        background-color: $gray-100;
+        padding: 4px;
+        border-radius: 20px;
+        height: 300px;
+        margin: 5px;
+        width: 300px;
+        align-self: center;
+        margin-top: .5rem;
+
+        &--subcontent{
+            color: $gray-500;
+            
+        }
+        
+        img{
+            margin: 0;
+            width: 100%;
+            border-radius: 20px 20px 0 0;
+        }
+    }
+}
+.shadow{
+    box-shadow: 5px 5px 10px $gray-600 !important;
+}

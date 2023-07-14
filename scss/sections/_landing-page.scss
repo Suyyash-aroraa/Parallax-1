@@ -1,0 +1,31 @@
+@use '../custom' as *;
+
+.full-screen{
+    width: 100%;
+    height: 100vh;
+}
+
+.landing-page{
+    div{
+        .bg-left, .bg-right, .foreground{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+        }
+
+        #moon{
+            position: absolute;
+            width: 18.5rem;
+            height: 15rem;
+            margin-top: 5rem;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+
+.bg-landing{
+    background: linear-gradient( $black, $bg-color, $secondary );
+}

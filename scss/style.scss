@@ -1,0 +1,10 @@
+@use './custom';
+@use './sections/landing-page';
+@use './sections/navbar';
+@use './sections/aboutme';
+@use './sections/contact';
+@use './sections/portfolio';
+
+body{
+    background-color: #010831;
+}

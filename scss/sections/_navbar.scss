@@ -1,0 +1,15 @@
+#navbarNavAltMarkup{
+    justify-content: end ;
+    margin-right: 4rem;
+}
+@media (min-width:992px){
+    .navbar-brand{
+        margin-left: 4rem;
+    }
+}
+
+.navbar{
+    background-color: black !important;
+    color: #C1D3E8 !important;
+    position: relative;
+}

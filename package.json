@@ -1,0 +1,20 @@
+{
+  "name": "bootsrap-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "bootstrap",
+    "bootstrap-5"
+  ],
+  "author": "Suyyash Raj Arora",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0",
+    "sass": "^1.63.6"
+  }
+}

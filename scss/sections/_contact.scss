@@ -1,0 +1,42 @@
+@use '../custom' as *;
+
+.contact-me{
+    position: relative;
+
+    background: linear-gradient($bg-color, $primary);
+    background-color: $secondary;
+
+    .main-form-text{
+        background-color: $gray-400;
+        border-radius: 20px 0 0 20px;
+        @include media-breakpoint-down(md){
+            border-radius: 20px 20px 0px 0;
+        }
+    }
+
+    .main-form{
+        background-color: $secondary;
+        background: linear-gradient(135deg,$primary, $bg-color);
+        width: 100%;
+        padding: 3rem;
+        border-radius:  0 20px 20px 0;
+        @include media-breakpoint-down(md){
+            border-radius: 0 0 20px 20px;
+            
+        }
+    }
+
+}
+
+.pill-btn{
+    border-radius: 10000000000000000px !important;
+
+    border: 2px white solid;
+    background-color: transparent;
+    color: white;
+
+    &:hover{
+        background: linear-gradient(45deg, $bg-color, $secondary);
+
+    }
+}

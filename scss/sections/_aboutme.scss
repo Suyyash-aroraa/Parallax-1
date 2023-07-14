@@ -1,0 +1,22 @@
+@use '../custom';
+
+.about-me{
+    position: relative;
+    background-color: #010831;
+
+    .container{
+        .main-text{
+            display: flex;
+            align-items: center;
+            padding-right: 10rem;
+        }
+    }
+}
+
+@media (max-width: 984px){
+    .main-text{
+        padding: 0;
+        padding-right: 0 !important;
+        text-align: center;
+    }
+}
